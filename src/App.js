@@ -1,30 +1,26 @@
 import React, { Component } from 'react';
-import './App.css';
-import Person from './Person/Person'
+import styles from './App.css';
 import Navbar from './Tools/Navbar'
 
 class App extends Component {
 
-  state = {
-    persons: [
-      { name: "Darcy", age: 27 },
-      { name: "Sergio", age: 25 },
-      { name: "Marcus", age: 26 }
-    ]
-  }
+    render() {
+      return(
+        <div className= {styles.App}>
+          <Navbar></Navbar>
 
-  render() {
-    return (
-      <div className="App">
-        <Navbar></Navbar>
-        <h1>Darcy's React App</h1>
-        <p>Its a test paragraph!</p>
-        <button>Switch Name</button>
-        <Person name={this.state.persons[0].name} age={this.state.persons[0].age}/>
-        <Person name={this.state.persons[1].name} age={this.state.persons[1].age}>My Hobbies: Being Insane</Person>
-        <Person name={this.state.persons[2].name} age={this.state.persons[2].age}/>
-      </div>
-    );
+          <div className = {styles.MainContainer}>
+            <div className = {styles.SubContainer}>
+              <h2 className = {styles.h2}>Custom TTT</h2>
+              <p className = {styles.p}>An extension for the garrysmod gamemode TTT, adding additional gameplay elements and custom models</p>
+            </div>
+            <div className = {styles.SubContainer}>
+              <h2 className = {styles.h2}>Nost</h2>
+              <p className = {styles.p}>A 3D puzzle game about using physics to move a ball to the end of a maze</p>
+            </div>
+          </div>
+        </div>
+      ); 
   }
 }
 

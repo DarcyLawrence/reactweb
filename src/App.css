@@ -7,3 +7,35 @@
     margin: 0px ;
     padding: 0px ;
 }
+
+.MainContainer
+{
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  width: 80%;
+}
+
+.SubContainer
+{
+  width: 40%;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  background: linear-gradient(0deg,  #dfd8dc 0%, #d2c1ce 100%);
+}
+
+.p
+{
+  text-align: left;
+  padding: 8px;
+  line-height: 150%;
+}
+
+.h2
+{
+  text-align: left;
+  border: 0px;
+  border-bottom: 1px solid#adadad;
+  padding: 8px;
+  width:
+}
