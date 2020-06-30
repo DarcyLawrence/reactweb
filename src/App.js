@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person'
+import Navbar from './Tools/Navbar'
 
 class App extends Component {
 
@@ -15,6 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar></Navbar>
         <h1>Darcy's React App</h1>
         <p>Its a test paragraph!</p>
         <button>Switch Name</button>

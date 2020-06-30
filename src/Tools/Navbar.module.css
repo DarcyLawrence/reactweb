@@ -1,0 +1,17 @@
+.body {
+    margin-top: '8px';
+    margin-bottom: '16px';
+    margin-left: '64px';
+    margin-right: '64px';
+    padding: '8px';
+    font-size: '300%';
+}
+
+.navbutton {
+    background : '#ffffff';
+    margin: '12px';
+    padding : '8px';
+    font-size: '100%';
+    border: '0px';
+    border-bottom: '1px solid #adadad';
+}
